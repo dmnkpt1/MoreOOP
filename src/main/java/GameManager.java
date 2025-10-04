@@ -9,7 +9,7 @@ public class GameManager {
 
         while (c1.isAlive() && c2.isAlive()) {
             System.out.println("Now  " + name1  + " attacks  " + name2 );
-            // System.out.println(name2 + "status:" + name2);
+
             c1.kick(c2);
 
             if (c2.isAlive()) {
